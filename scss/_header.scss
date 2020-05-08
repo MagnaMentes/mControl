@@ -25,53 +25,53 @@ header{
             color: #f4fafd;
             li{
                 font-family: "UbuntuLight";
-                font-size: 24px;
+                font-size: 18px;
                 text-transform: uppercase;
                 margin: 0 30px 0 0;
                 a{
                     color: #f4fafd;
                     text-decoration: none;
                     transition: all 0.3s ease;
-                    padding: 0 0 0 35px;
+                    padding: 0 0 0 25px;
                 }
                 a:hover{
                     color: #0f1e32;
                 }
 
                 .home{
-                    background: url(../img/ico/home.svg) left/26px 26px no-repeat;
+                    background: url(../img/ico/home.svg) left/18px 18px no-repeat;
                     transition: all 0.4s ease;
                     &:hover{
-                        background: url(../img/ico/home-hover.svg) left/26px 26px no-repeat;
+                        background: url(../img/ico/home-hover.svg) left/18px 18px no-repeat;
                     }
                 }
                 .shops{
-                    background: url(../img/ico/shops.svg) left/26px 26px no-repeat;
+                    background: url(../img/ico/shops.svg) left/18px 18px no-repeat;
                     transition: all 0.4s ease;
                     &:hover{
-                        background: url(../img/ico/shops-hover.svg) left/26px 26px no-repeat;
+                        background: url(../img/ico/shops-hover.svg) left/18px 18px no-repeat;
                     }
                 }
                 .concurents{
-                    background: url(../img/ico/concurents.svg) left/26px 26px no-repeat, url(../img/ico/pro.svg) right top/15px 15px no-repeat;
+                    background: url(../img/ico/concurents.svg) left/18px 18px no-repeat, url(../img/ico/pro.svg) right top/15px 15px no-repeat;
                     padding-right: 20px;
                     transition: all 0.4s ease;
                     &:hover{
-                        background: url(../img/ico/concurents-hover.svg) left/26px 26px no-repeat, url(../img/ico/pro-hover.svg) right top/15px 15px no-repeat;
+                        background: url(../img/ico/concurents-hover.svg) left/18px 18px no-repeat, url(../img/ico/pro-hover.svg) right top/15px 15px no-repeat;
                     }
                 }
                 .performance{
-                    background: url(../img/ico/performance.svg) left/26px 26px no-repeat;
+                    background: url(../img/ico/performance.svg) left/18px 18px no-repeat;
                     transition: all 0.4s ease;
                     &:hover{
-                        background: url(../img/ico/performance-hover.svg) left/26px 26px no-repeat;
+                        background: url(../img/ico/performance-hover.svg) left/18px 18px no-repeat;
                     }
                 }
                 .calendar{
-                    background: url(../img/ico/calendar.svg) left/26px 26px no-repeat;
+                    background: url(../img/ico/calendar.svg) left/18px 18px no-repeat;
                     transition: all 0.4s ease;
                     &:hover{
-                        background: url(../img/ico/calendar-hover.svg) left/26px 26px no-repeat;
+                        background: url(../img/ico/calendar-hover.svg) left/18px 18px no-repeat;
                     }
                 }
             }

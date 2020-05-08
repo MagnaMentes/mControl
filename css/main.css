@@ -201,7 +201,7 @@ body .wrapper header nav .menu {
 
 body .wrapper header nav .menu li {
   font-family: "UbuntuLight";
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   margin: 0 30px 0 0;
 }
@@ -210,7 +210,7 @@ body .wrapper header nav .menu li a {
   color: #f4fafd;
   text-decoration: none;
   transition: all 0.3s ease;
-  padding: 0 0 0 35px;
+  padding: 0 0 0 25px;
 }
 
 body .wrapper header nav .menu li a:hover {
@@ -218,49 +218,49 @@ body .wrapper header nav .menu li a:hover {
 }
 
 body .wrapper header nav .menu li .home {
-  background: url(../img/ico/home.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/home.svg) left/18px 18px no-repeat;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .home:hover {
-  background: url(../img/ico/home-hover.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/home-hover.svg) left/18px 18px no-repeat;
 }
 
 body .wrapper header nav .menu li .shops {
-  background: url(../img/ico/shops.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/shops.svg) left/18px 18px no-repeat;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .shops:hover {
-  background: url(../img/ico/shops-hover.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/shops-hover.svg) left/18px 18px no-repeat;
 }
 
 body .wrapper header nav .menu li .concurents {
-  background: url(../img/ico/concurents.svg) left/26px 26px no-repeat, url(../img/ico/pro.svg) right top/15px 15px no-repeat;
+  background: url(../img/ico/concurents.svg) left/18px 18px no-repeat, url(../img/ico/pro.svg) right top/15px 15px no-repeat;
   padding-right: 20px;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .concurents:hover {
-  background: url(../img/ico/concurents-hover.svg) left/26px 26px no-repeat, url(../img/ico/pro-hover.svg) right top/15px 15px no-repeat;
+  background: url(../img/ico/concurents-hover.svg) left/18px 18px no-repeat, url(../img/ico/pro-hover.svg) right top/15px 15px no-repeat;
 }
 
 body .wrapper header nav .menu li .performance {
-  background: url(../img/ico/performance.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/performance.svg) left/18px 18px no-repeat;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .performance:hover {
-  background: url(../img/ico/performance-hover.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/performance-hover.svg) left/18px 18px no-repeat;
 }
 
 body .wrapper header nav .menu li .calendar {
-  background: url(../img/ico/calendar.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/calendar.svg) left/18px 18px no-repeat;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .calendar:hover {
-  background: url(../img/ico/calendar-hover.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/calendar-hover.svg) left/18px 18px no-repeat;
 }
 
 body .wrapper header nav .menu li:first-child {
