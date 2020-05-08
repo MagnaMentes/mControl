@@ -4,8 +4,8 @@
 body{
     background: #f4fafd;
     font-family: "UbuntuRegular";
-    font-size: 24px;
-    padding: 30px;
+    font-size: 18px;
+    padding: 10px 30px;
     .wrapper{
         display: flex;
         justify-content: space-between;
@@ -27,6 +27,26 @@ body{
                 text-transform: uppercase;
                 font-size: 22px;
                 color: #b47b44;
+            }
+            nav{
+                margin: 30px 0 30px 0;
+                background: #5886af;
+                padding: 10px 0;
+                .menu{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #f4fafd;
+                    li{
+                        font-family: "UbuntuLight";
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        margin: 0 30px 0 0;
+                    }
+                    li:last-child{
+                        margin-right: 0;
+                    }
+                }
             }
         }
         .content{
