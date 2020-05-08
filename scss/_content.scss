@@ -2,27 +2,59 @@
     border: 5px solid red;
     width: 100%;
     height: 100%;
+    font-family: "UbuntuLight";
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     .month-plan{
-        border: 5px solid #000;
+        //border: 5px solid #000;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
     .day-plan{
-        border: 5px solid #a7aa04;
+        //border: 5px solid #a7aa04;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
     .rent{
-        border: 5px solid #000;
+        //border: 5px solid #000;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
     .rm-rd-plan{
-        border: 5px solid #a7aa04;
+        //border: 5px solid #a7aa04;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
     .budget{
-        border: 5px solid #000;
+        //border: 5px solid #000;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
     .product-cycle{
-        border: 5px solid #a7aa04;
+        //border: 5px solid #a7aa04;
+        width: 300px;
+        height: 300px;
+        background: #5886af;
+        border-radius: 5px;
+        color: #f4fafd;
     }
 }

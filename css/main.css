@@ -275,35 +275,61 @@ body .wrapper .content {
   border: 5px solid red;
   width: 100%;
   height: 100%;
+  font-family: "UbuntuLight";
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
 body .wrapper .content .month-plan {
-  border: 5px solid #000;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper .content .day-plan {
-  border: 5px solid #a7aa04;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper .content .rent {
-  border: 5px solid #000;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper .content .rm-rd-plan {
-  border: 5px solid #a7aa04;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper .content .budget {
-  border: 5px solid #000;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper .content .product-cycle {
-  border: 5px solid #a7aa04;
+  width: 300px;
+  height: 300px;
+  background: #5886af;
+  border-radius: 5px;
+  color: #f4fafd;
 }
 
 body .wrapper footer {
