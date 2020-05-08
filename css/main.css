@@ -271,7 +271,35 @@ body .wrapper .content {
   border: 5px solid red;
   width: 100%;
   height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+body .wrapper .content .month-plan {
+  border: 5px solid #000;
+}
+
+body .wrapper .content .day-plan {
+  border: 5px solid #a7aa04;
+}
+
+body .wrapper .content .rent {
+  border: 5px solid #000;
+}
+
+body .wrapper .content .rm-rd-plan {
+  border: 5px solid #a7aa04;
+}
+
+body .wrapper .content .budget {
+  border: 5px solid #000;
+}
+
+body .wrapper .content .product-cycle {
+  border: 5px solid #a7aa04;
 }
 
 body .wrapper footer {

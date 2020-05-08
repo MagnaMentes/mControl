@@ -2,5 +2,27 @@
     border: 5px solid red;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    .month-plan{
+        border: 5px solid #000;
+    }
+    .day-plan{
+        border: 5px solid #a7aa04;
+    }
+    .rent{
+        border: 5px solid #000;
+    }
+    .rm-rd-plan{
+        border: 5px solid #a7aa04;
+    }
+    .budget{
+        border: 5px solid #000;
+    }
+    .product-cycle{
+        border: 5px solid #a7aa04;
+    }
 }
