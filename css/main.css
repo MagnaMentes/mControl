@@ -236,12 +236,13 @@ body .wrapper header nav .menu li .shops:hover {
 }
 
 body .wrapper header nav .menu li .concurents {
-  background: url(../img/ico/concurents.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/concurents.svg) left/26px 26px no-repeat, url(../img/ico/pro.svg) right top/15px 15px no-repeat;
+  padding-right: 20px;
   transition: all 0.4s ease;
 }
 
 body .wrapper header nav .menu li .concurents:hover {
-  background: url(../img/ico/concurents-hover.svg) left/26px 26px no-repeat;
+  background: url(../img/ico/concurents-hover.svg) left/26px 26px no-repeat, url(../img/ico/pro-hover.svg) right top/15px 15px no-repeat;
 }
 
 body .wrapper header nav .menu li .performance {
