@@ -54,18 +54,38 @@ body{
 
                         .home{
                             background: url(../img/ico/home.svg) left/26px 26px no-repeat;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                background: url(../img/ico/home-hover.svg) left/26px 26px no-repeat;
+                            }
                         }
                         .shops{
                             background: url(../img/ico/shops.svg) left/26px 26px no-repeat;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                background: url(../img/ico/shops-hover.svg) left/26px 26px no-repeat;
+                            }
                         }
                         .concurents{
                             background: url(../img/ico/concurents.svg) left/26px 26px no-repeat;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                background: url(../img/ico/concurents-hover.svg) left/26px 26px no-repeat;
+                            }
                         }
                         .performance{
                             background: url(../img/ico/performance.svg) left/26px 26px no-repeat;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                background: url(../img/ico/performance-hover.svg) left/26px 26px no-repeat;
+                            }
                         }
                         .calendar{
                             background: url(../img/ico/calendar.svg) left/26px 26px no-repeat;
+                            transition: all 0.4s ease;
+                            &:hover{
+                                background: url(../img/ico/calendar-hover.svg) left/26px 26px no-repeat;
+                            }
                         }
                     }
                     li:last-child{
