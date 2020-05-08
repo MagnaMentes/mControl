@@ -284,6 +284,10 @@ body .wrapper .content {
   text-align: center;
 }
 
+body .wrapper .content h2 {
+  margin: 10px 0 0 0;
+}
+
 body .wrapper .content .month-plan {
   width: 300px;
   height: 300px;
