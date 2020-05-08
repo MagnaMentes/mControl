@@ -14,18 +14,7 @@ body{
         height: 100%;
         //border: 1px solid blue;
         @import "header";
-        .content{
-            border: 5px solid red;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-        }
-        footer{
-            border: 5px solid yellow;
-            width: 100%;
-            text-align: center;
-            font-family: "UbuntuLight";
-            color: #5886af;
-        }
+        @import "content";
+        @import "footer";
     }
 }
