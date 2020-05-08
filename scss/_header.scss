@@ -74,8 +74,11 @@ header{
                     }
                 }
             }
+            li:first-child{
+                margin-left: 10px;
+            }
             li:last-child{
-                margin-right: 0;
+                margin-right: 10px;
             }
         }
     }

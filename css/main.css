@@ -157,7 +157,6 @@ body {
   background: #f4fafd;
   font-family: "UbuntuRegular";
   font-size: 18px;
-  padding: 10px 30px;
 }
 
 body .wrapper {
@@ -263,8 +262,12 @@ body .wrapper header nav .menu li .calendar:hover {
   background: url(../img/ico/calendar-hover.svg) left/26px 26px no-repeat;
 }
 
+body .wrapper header nav .menu li:first-child {
+  margin-left: 10px;
+}
+
 body .wrapper header nav .menu li:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 
 body .wrapper .content {
