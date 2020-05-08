@@ -12,11 +12,11 @@ body{
         align-items: center;
         flex-direction: column;
         height: 100%;
-        border: 1px solid blue;
+        //border: 1px solid blue;
         header{
             font-family: "UbuntuMedium";
             text-align: center;
-            border: 5px solid white;
+            //border: 5px solid white;
             width: 100%;
             h1{
                 font-size: 90px;
@@ -67,6 +67,8 @@ body{
             border: 5px solid yellow;
             width: 100%;
             text-align: center;
+            font-family: "UbuntuLight";
+            color: #5886af;
         }
     }
 }

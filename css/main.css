@@ -166,13 +166,11 @@ body .wrapper {
   align-items: center;
   flex-direction: column;
   height: 100%;
-  border: 1px solid blue;
 }
 
 body .wrapper header {
   font-family: "UbuntuMedium";
   text-align: center;
-  border: 5px solid white;
   width: 100%;
 }
 
@@ -233,4 +231,6 @@ body .wrapper footer {
   border: 5px solid yellow;
   width: 100%;
   text-align: center;
+  font-family: "UbuntuLight";
+  color: #5886af;
 }
