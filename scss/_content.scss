@@ -1,99 +1,112 @@
 .content{
-    border: 5px solid red;
     width: 100%;
     height: 100%;
     font-family: "UbuntuLight";
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     h2{
-        margin: 10px 0 0 0;
+        padding-top: 10px;
     }
-    .month-plan{
-        //border: 5px solid #000;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
+    .first-content-block{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .month-plan{
+            width: 300px;
+            height: 300px;
+            margin: 0 15px 30px 30px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
+        }
+        .day-plan{
+            //border: 5px solid #a7aa04;
+            width: 300px;
+            height: 300px;
+            margin: 0 15px 30px 15px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
+        }
+        .rent{
+            //border: 5px solid #000;
+            width: 300px;
+            height: 300px;
+            margin: 0 30px 30px 15px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
         }
     }
-    .day-plan{
-        //border: 5px solid #a7aa04;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
+    .second-content-block{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .rm-rd-plan{
+            width: 300px;
+            height: 300px;
+            margin: 0 15px 30px 30px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
         }
-    }
-    .rent{
-        //border: 5px solid #000;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
+        .budget{
+            //border: 5px solid #000;
+            width: 300px;
+            height: 300px;
+            margin: 0 15px 30px 15px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
         }
-    }
-    .rm-rd-plan{
-        //border: 5px solid #a7aa04;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
-        }
-    }
-    .budget{
-        //border: 5px solid #000;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
-        }
-    }
-    .product-cycle{
-        //border: 5px solid #a7aa04;
-        width: 300px;
-        height: 300px;
-        background: #5886af;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px #0f1e32;
-        color: #f4fafd;
-        transition: all 0.3s ease;
-        &:hover{
-            border-radius: 10px;
-            box-shadow: 1px 1px 15px #0f1e32;
+        .product-cycle{
+            //border: 5px solid #a7aa04;
+            width: 300px;
+            height: 300px;
+            margin: 0 30px 30px 15px;
+            background: #5886af;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px #0f1e32;
+            color: #f4fafd;
+            transition: all 0.3s ease;
+            &:hover{
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px #0f1e32;
+            }
         }
     }
 }
