@@ -46,9 +46,26 @@ body{
                             color: #f4fafd;
                             text-decoration: none;
                             transition: all 0.3s ease;
+                            padding: 0 0 0 35px;
                         }
                         a:hover{
                             color: #0f1e32;
+                        }
+
+                        .home{
+                            background: url(../img/ico/home.svg) left/26px 26px no-repeat;
+                        }
+                        .shops{
+                            background: url(../img/ico/shops.svg) left/26px 26px no-repeat;
+                        }
+                        .concurents{
+                            background: url(../img/ico/concurents.svg) left/26px 26px no-repeat;
+                        }
+                        .performance{
+                            background: url(../img/ico/performance.svg) left/26px 26px no-repeat;
+                        }
+                        .calendar{
+                            background: url(../img/ico/calendar.svg) left/26px 26px no-repeat;
                         }
                     }
                     li:last-child{

@@ -210,10 +210,31 @@ body .wrapper header nav .menu li a {
   color: #f4fafd;
   text-decoration: none;
   transition: all 0.3s ease;
+  padding: 0 0 0 35px;
 }
 
 body .wrapper header nav .menu li a:hover {
   color: #0f1e32;
+}
+
+body .wrapper header nav .menu li .home {
+  background: url(../img/ico/home.svg) left/26px 26px no-repeat;
+}
+
+body .wrapper header nav .menu li .shops {
+  background: url(../img/ico/shops.svg) left/26px 26px no-repeat;
+}
+
+body .wrapper header nav .menu li .concurents {
+  background: url(../img/ico/concurents.svg) left/26px 26px no-repeat;
+}
+
+body .wrapper header nav .menu li .performance {
+  background: url(../img/ico/performance.svg) left/26px 26px no-repeat;
+}
+
+body .wrapper header nav .menu li .calendar {
+  background: url(../img/ico/calendar.svg) left/26px 26px no-repeat;
 }
 
 body .wrapper header nav .menu li:last-child {
