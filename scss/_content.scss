@@ -1,6 +1,6 @@
 .content{
     width: 100%;
-    height: 100%;
+    //height: 100%;
     font-family: "UbuntuLight";
     margin: 0 auto;
     display: flex;
@@ -13,12 +13,16 @@
     }
     .first-content-block{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        height: 100%;
+        max-width: 1200px;
+        max-height: max-content;
         .month-plan{
             width: 300px;
             height: 300px;
-            margin: 0 15px 30px 30px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
@@ -33,7 +37,7 @@
             //border: 5px solid #a7aa04;
             width: 300px;
             height: 300px;
-            margin: 0 15px 30px 15px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
@@ -48,7 +52,7 @@
             //border: 5px solid #000;
             width: 300px;
             height: 300px;
-            margin: 0 30px 30px 15px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
@@ -62,12 +66,15 @@
     }
     .second-content-block{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        height: 100%;
+        max-width: 1200px;
         .rm-rd-plan{
             width: 300px;
             height: 300px;
-            margin: 0 15px 0 30px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
@@ -82,7 +89,7 @@
             //border: 5px solid #000;
             width: 300px;
             height: 300px;
-            margin: 0 15px 0 15px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
@@ -97,7 +104,7 @@
             //border: 5px solid #a7aa04;
             width: 300px;
             height: 300px;
-            margin: 0 30px 0 15px;
+            margin: 15px;
             background: #5886af;
             border-radius: 5px;
             box-shadow: 1px 1px 5px #0f1e32;
