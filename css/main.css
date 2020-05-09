@@ -350,6 +350,28 @@ body .wrapper .content .first-content-block .day-plan:hover {
   box-shadow: 1px 1px 15px #0f1e32;
 }
 
+body .wrapper .content .first-content-block .day-plan h3 {
+  font-family: "UbuntuBold";
+  font-size: 50px;
+  margin: 15px 0 0 0;
+}
+
+body .wrapper .content .first-content-block .day-plan h4 {
+  font-size: 30px;
+  margin: 30px 0 0 0;
+  color: #eac77d;
+}
+
+body .wrapper .content .first-content-block .day-plan h5 {
+  margin: 30px 0 0 0;
+}
+
+body .wrapper .content .first-content-block .day-plan h6 {
+  font-family: "UbuntuBold";
+  font-size: 50px;
+  margin: 15px 0 0 0;
+}
+
 body .wrapper .content .first-content-block .rent {
   width: 300px;
   height: 300px;
