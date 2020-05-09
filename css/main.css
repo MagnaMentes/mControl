@@ -285,7 +285,9 @@ body .wrapper .content {
 }
 
 body .wrapper .content h2 {
-  padding-top: 20px;
+  font-family: "UbuntuLight";
+  margin: 20px 0 0 0;
+  color: #f4fafd;
 }
 
 body .wrapper .content .first-content-block {
@@ -313,7 +315,7 @@ body .wrapper .content .first-content-block .month-plan:hover {
 }
 
 body .wrapper .content .first-content-block .month-plan h3 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 15px 0 0 0;
 }
@@ -329,7 +331,7 @@ body .wrapper .content .first-content-block .month-plan h5 {
 }
 
 body .wrapper .content .first-content-block .month-plan h6 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 15px 0 0 0;
 }
@@ -351,7 +353,7 @@ body .wrapper .content .first-content-block .day-plan:hover {
 }
 
 body .wrapper .content .first-content-block .day-plan h3 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 15px 0 0 0;
 }
@@ -367,7 +369,7 @@ body .wrapper .content .first-content-block .day-plan h5 {
 }
 
 body .wrapper .content .first-content-block .day-plan h6 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 15px 0 0 0;
 }
@@ -393,7 +395,7 @@ body .wrapper .content .first-content-block .rent h3 {
 }
 
 body .wrapper .content .first-content-block .rent h4 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 5px 0 0 0;
 }
@@ -403,7 +405,7 @@ body .wrapper .content .first-content-block .rent h5 {
 }
 
 body .wrapper .content .first-content-block .rent h6 {
-  font-family: "UbuntuBold";
+  font-family: "UbuntuMedium";
   font-size: 50px;
   margin: 5px 0 0 0;
 }
