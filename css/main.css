@@ -292,7 +292,6 @@ body .wrapper .content .first-content-block {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 100%;
   max-width: 1200px;
 }
 
@@ -349,7 +348,6 @@ body .wrapper .content .second-content-block {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 100%;
   max-width: 1200px;
 }
 
@@ -403,7 +401,6 @@ body .wrapper .content .second-content-block .product-cycle:hover {
 
 body .wrapper footer {
   width: 100%;
-  height: 50px;
   text-align: center;
   font-family: "UbuntuLight";
   color: #0f1e32;
