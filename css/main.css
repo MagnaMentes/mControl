@@ -434,6 +434,15 @@ body .wrapper .content .second-content-block .rm-rd-plan:hover {
   box-shadow: 1px 1px 15px #0f1e32;
 }
 
+body .wrapper .content .second-content-block .rm-rd-plan h3 {
+  margin: 30px 0 0 0;
+  font-size: 40px;
+}
+
+body .wrapper .content .second-content-block .rm-rd-plan h4 {
+  margin: 15px 0 0 0;
+}
+
 body .wrapper .content .second-content-block .budget {
   width: 300px;
   height: 300px;
@@ -487,9 +496,18 @@ body .wrapper .content .second-content-block .product-cycle:hover {
 }
 
 body .wrapper .content .second-content-block .product-cycle h3 {
-  font-family: "UbuntuMedium";
-  font-size: 80px;
-  margin: 70px 0 0 0;
+  font-size: 30px;
+  margin: 50px 0 0 0;
+}
+
+body .wrapper .content .second-content-block .product-cycle h4 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+
+body .wrapper .content .second-content-block .product-cycle h5 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
 }
 
 body .wrapper footer {
