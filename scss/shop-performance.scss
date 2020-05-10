@@ -1,5 +1,5 @@
-@import "zerostyle";
 @import "fonts";
+@import "zerostyle";
 
 body{
     background: #f4fafd;
@@ -13,8 +13,7 @@ body{
         height: 100%;
         //border: 1px solid blue;
         @import "header";
-        @import "content";
+        @import "shop-performance-content";
         @import "footer";
     }
 }
-
