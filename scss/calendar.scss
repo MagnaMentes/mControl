@@ -1,0 +1,20 @@
+@import "zerostyle";
+@import "fonts";
+
+body{
+    background: #f4fafd;
+    font-family: "UbuntuRegular";
+    font-size: 18px;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        //border: 1px solid blue;
+        @import "header";
+        @import "calendar-conent";
+        @import "footer";
+    }
+}
+
