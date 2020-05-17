@@ -330,6 +330,10 @@ body .wrapper .content .first-content-block .month-plan h5 {
   margin: 30px 0 0 0;
 }
 
+body .wrapper .content .first-content-block .month-plan h5 .percent-today {
+  color: #eac77d;
+}
+
 body .wrapper .content .first-content-block .month-plan h6 {
   font-family: "UbuntuMedium";
   font-size: 40px;
