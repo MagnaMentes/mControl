@@ -13,7 +13,7 @@
     text-align: center;
 }
     .shop-card {
-        width: 200px;
+        width: 300px;
         height: 150px;
         margin: 10px;
         background-color: #5886af;
@@ -39,16 +39,16 @@
             -ms-border-radius: 20px;
             -o-border-radius: 20px;
             box-shadow: 1px 1px 15px #0f1e32;
-            transform: scale(1.2);
-            -webkit-transform: scale(1.2);
-            -moz-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            -o-transform: scale(1.2);
-}       
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
 
         .addres {
             color: #f4fafd;
-            font-size: 18px;
+            font-size: 20px;
             margin: 10px 0 10px 0;
         }
 
