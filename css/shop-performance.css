@@ -274,7 +274,7 @@ body .wrapper header nav .menu li:last-child {
 
 body .wrapper .content {
   max-width: 1360px;
-  font-family: "UbuntuRegular";
+  font-family: "UbuntuLight";
   font-size: 20px;
   margin: 0 auto;
   display: flex;
@@ -286,7 +286,7 @@ body .wrapper .content {
 
 body .wrapper .shop-card {
   width: 200px;
-  height: 200px;
+  height: 150px;
   margin: 10px;
   background-color: #5886af;
   border-radius: 5px;
@@ -313,16 +313,51 @@ body .wrapper .shop-card:hover {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   box-shadow: 1px 1px 15px #0f1e32;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 body .wrapper .shop-card .addres {
-  width: 100%;
   color: #f4fafd;
+  font-size: 18px;
   margin: 10px 0 10px 0;
+}
+
+body .wrapper .shop-card .plan {
+  font-size: 25px;
+}
+
+body .wrapper .shop-card .plan::before {
+  content: 'ПП';
+  font-size: 12px;
+}
+
+body .wrapper .shop-card .plan::after {
+  content: 'грн';
+  font-size: 12px;
+}
+
+body .wrapper .shop-card .percent {
+  font-size: 30px;
+  color: #eac77d;
 }
 
 body .wrapper .shop-card .fact {
   margin: 0 0 10px 0;
+  font-size: 25px;
+}
+
+body .wrapper .shop-card .fact::before {
+  content: 'ФП';
+  font-size: 12px;
+}
+
+body .wrapper .shop-card .fact::after {
+  content: 'грн';
+  font-size: 12px;
 }
 
 body .wrapper footer {
