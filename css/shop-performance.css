@@ -284,7 +284,7 @@ body .wrapper .content {
   text-align: center;
 }
 
-body .wrapper .shop-card {
+body .wrapper .content .shop-card {
   width: 300px;
   height: 150px;
   margin: 10px;
@@ -306,7 +306,7 @@ body .wrapper .shop-card {
   -o-transition: all 0.3s;
 }
 
-body .wrapper .shop-card:hover {
+body .wrapper .content .shop-card:hover {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -320,44 +320,32 @@ body .wrapper .shop-card:hover {
   -o-transform: scale(1.1);
 }
 
-body .wrapper .shop-card .addres {
+body .wrapper .content .shop-card .addres {
   color: #f4fafd;
-  font-size: 20px;
-  margin: 10px 0 10px 0;
+  font-size: 18px;
+  margin: 10px 0 0 0;
 }
 
-body .wrapper .shop-card .plan {
-  font-size: 25px;
-}
-
-body .wrapper .shop-card .plan::before {
-  content: 'ПП';
-  font-size: 12px;
-}
-
-body .wrapper .shop-card .plan::after {
-  content: 'грн';
-  font-size: 12px;
-}
-
-body .wrapper .shop-card .percent {
-  font-size: 30px;
+body .wrapper .content .shop-card .percent {
+  font-size: 60px;
   color: #eac77d;
 }
 
-body .wrapper .shop-card .fact {
+body .wrapper .content .shop-card .plan-fact {
   margin: 0 0 10px 0;
-  font-size: 25px;
+  font-size: 30px;
 }
 
-body .wrapper .shop-card .fact::before {
-  content: 'ФП';
-  font-size: 12px;
+body .wrapper .content .shop-card .plan-fact .plan {
+  font-weight: 700;
 }
 
-body .wrapper .shop-card .fact::after {
-  content: 'грн';
-  font-size: 12px;
+body .wrapper .content .shop-card .plan-fact .plan::after {
+  content: ' /';
+}
+
+body .wrapper .content .shop-card .plan-fact .fact {
+  font-family: 'UbuntuLight';
 }
 
 body .wrapper footer {

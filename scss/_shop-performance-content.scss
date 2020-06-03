@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    
     .shop-card {
         width: 300px;
         height: 150px;
@@ -48,37 +48,28 @@
 
         .addres {
             color: #f4fafd;
-            font-size: 20px;
-            margin: 10px 0 10px 0;
-        }
-
-        .plan {
-            font-size: 25px;
-            &::before{
-                content: 'ПП';
-                font-size: 12px;
-            }
-            &::after{
-                content: 'грн';
-                font-size: 12px;
-            }
+            font-size: 18px;
+            margin: 10px 0 0 0;
         }
 
         .percent{
-            font-size: 30px;
+            font-size: 60px;
             color: #eac77d;
-        }
+}
 
-        .fact {
+        .plan-fact{
             margin: 0 0 10px 0;
-            font-size: 25px;
-            &::before{
-                content: 'ФП';
-                font-size: 12px;
+            font-size: 30px;
+            .plan {
+                font-weight: 700;
+                &::after{
+                    content: ' /';
+                }
             }
-            &::after{
-                content: 'грн';
-                font-size: 12px;
+    
+            .fact {
+                font-family: 'UbuntuLight';
             }
-        }
+        }    
+    }
 }
