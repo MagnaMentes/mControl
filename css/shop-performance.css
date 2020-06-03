@@ -273,20 +273,56 @@ body .wrapper header nav .menu li:last-child {
 }
 
 body .wrapper .content {
-  width: 100%;
+  max-width: 1360px;
   font-family: "UbuntuRegular";
   font-size: 20px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-body .wrapper .content h2 {
-  font-size: 36px;
-  color: #b47b44;
+body .wrapper .shop-card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #5886af;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #f4fafd;
+  box-shadow: 1px 1px 5px #0f1e32;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+body .wrapper .shop-card:hover {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 1px 1px 15px #0f1e32;
+}
+
+body .wrapper .shop-card .addres {
+  width: 100%;
+  color: #f4fafd;
+  margin: 10px 0 10px 0;
+}
+
+body .wrapper .shop-card .fact {
+  margin: 0 0 10px 0;
 }
 
 body .wrapper footer {
